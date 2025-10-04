@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #3565bc;
+}
+
+/* Заголовки */
+h1, h2 {
+  color: #2d7bef;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* Список ссылок */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li a {
+  color: #0066cc;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
